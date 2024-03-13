@@ -4,9 +4,10 @@
     </div>
 </template>
 
-<script>
-    export default {
-    }
+<script setup>
+definePageMeta({
+    layout: 'products'
+});
 </script>
 
 <style lang="scss" scoped>
