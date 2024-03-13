@@ -1,17 +1,17 @@
 <template>
-    <header>
-        <nav>
-            <NuxtLink to="/products">Nuxt App Merch</NuxtLink>
+    <header class="shadow-sm bg-white">
+        <nav class="container mx-auto p-4">
+            <NuxtLink to="/products" class="font-bold">Nuxt App Merch</NuxtLink>
         </nav>
     </header>
     <!-- output the page content -->
-    <div>
+    <div class="container mx-auto p-4">
         <slot />
     </div>
 
-    <footer>
-        <ul>
-            <li>
+    <footer class="container mx-auto p-4 flex justify-between border-t-2">
+        <ul class="flex gap-4">
+            <li class="contents">
                 <NuxtLink to="/">Home</NuxtLink>
                 <NuxtLink to="/about">About</NuxtLink>
                 <NuxtLink to="/products">Products</NuxtLink>
@@ -22,13 +22,7 @@
 
 <style scoped>
 .router-link-exact-active {
-color: aquamarine;
-}
-h2 {
-margin-bottom: 20px;
-font-size: 36px;
-}
-p {
-margin: 20px 0;
+    color: #41b883;
+
 }
 </style>
