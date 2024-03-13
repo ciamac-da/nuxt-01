@@ -1,4 +1,7 @@
 <template>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Angkor&display=swap" rel="stylesheet">
     <div class="card">
       <div class="grid grid-cols-2 gap-10">
         <div class="p-7">

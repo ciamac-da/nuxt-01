@@ -1,5 +1,8 @@
 <template>
-    <div>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Angkor&display=swap" rel="stylesheet">
+    <div class="text-center pt-2">
         <h2>Home</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident possimus eaque adipisci excepturi soluta asperiores omnis iste quibusdam itaque tempora nesciunt minima neque repellat dicta maiores, repellendus odio cumque quam.</p>
 </div>
