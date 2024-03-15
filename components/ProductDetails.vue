@@ -1,7 +1,4 @@
 <template>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Angkor&display=swap" rel="stylesheet">
     <div class="card">
       <div class="grid grid-cols-2 gap-10">
         <div class="p-7">
@@ -12,6 +9,10 @@
           <p class="text-xl my-7">Price - ${{ product.price }}</p>
           <h3 class="font-bold border-b-2 mb-4 pb-2">Product description:</h3>
           <p class="mb-7">{{ product.description }}</p>
+          <button class="btn flex">
+            <i class="material-icons mr-2">add_shopping_cart</i>
+          </button>
+          <span>Add to cart</span>
         </div>
       </div>
     </div>

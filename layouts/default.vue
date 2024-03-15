@@ -17,6 +17,18 @@
         </div>
 </template>
 
+<script>
+export default {
+  head: {
+    link: [
+      { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Angkor&display=swap' }
+    ]
+  }
+}
+</script>
+
 <style scoped>
 .router-link-exact-active {
     color: #41b883;

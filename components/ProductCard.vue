@@ -1,7 +1,4 @@
 <template>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Angkor&display=swap" rel="stylesheet">
     <div class="card text-center flex flex-col justify-end">
       <img :src="`${product.image}`" class="thumb" />
       <p class="font-bold text-gray-500 m-4 truncate">{{ product.title }}</p>
