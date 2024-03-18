@@ -1,11 +1,16 @@
 <template>
     <div class="text-center">
         <h2>About</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident possimus eaque adipisci excepturi soluta asperiores omnis iste quibusdam itaque tempora nesciunt minima neque repellat dicta maiores, repellendus odio cumque quam.</p>
+        <p>Hi, {{ data }} Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident possimus eaque adipisci excepturi soluta asperiores omnis iste quibusdam itaque tempora nesciunt minima neque repellat dicta maiores, repellendus odio cumque quam.</p>
     </div>
 </template>
 
-<script>
+<script setup>
+// Fetch data from the '/api/names' endpoint
+const { data } = await useFetch('/api/names?name=Cia', {
+    method: 'post',
+    body: { age: 37 }
+})
 </script>
 
 <style scoped>
